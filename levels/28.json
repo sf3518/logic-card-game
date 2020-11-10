@@ -1,0 +1,10 @@
+{
+  "title": "De Morgan's Smile",
+  "premises": [["~", "A","|","B","->","C", "->", "B"],["C"]],
+  "lockedPremises": [],
+  "cards": ["(", ")", "A", "B", "~", "&", "|", "->"],
+  "goals": [
+    { "kind": "paradox" }
+  ],
+  "description": []
+}

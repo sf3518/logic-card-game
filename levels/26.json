@@ -1,0 +1,11 @@
+{
+  "title": "Modus Tollens' Trick",
+  "premises": [["A","&","C","->","A"],["A","->","C"],[]],
+  "lockedPremises": [0],
+  "cards": ["C"],
+  "limitedCards": [["(",1],[")",1],["~",1],["|",1]],
+  "goals": [
+    { "kind": "disprove", "expr": ["A"] }
+  ],
+  "description": []
+}

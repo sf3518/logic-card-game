@@ -1,0 +1,10 @@
+{
+  "title": "Implication Trick",
+  "premises": [["A","&","B","->","B","&","A"],[]],
+  "lockedPremises": [],
+  "cards": ["(", ")", "A", "~"],
+  "goals": [
+    { "kind": "disprove", "expr": ["B"] }
+  ],
+  "description": []
+}

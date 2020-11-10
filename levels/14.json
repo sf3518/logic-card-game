@@ -1,0 +1,13 @@
+{
+  "title": "Modus Tollens",
+  "premises": [["A", "->", "B"], []],
+  "lockedPremises": [0],
+  "cards": ["B", "~"],
+  "goals": [{ "kind": "disprove", "expr": ["A"] }],
+  "description": [
+    "Hey, welcome back! In this level we are going to show you the mystery of the 'implies' operator!",
+    "In the first premise, A → B means that you can deduce B, provided that you have A. If you do not have A, B can be either true or false.",
+    "Imagine → being a 'if' clause, A → B means 'if A, then B'.",
+    "Notice that → is NOT commutative. That is, 'A → B' and 'B → A' are NOT equivalent!"
+  ]
+}

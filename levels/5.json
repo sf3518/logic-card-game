@@ -1,0 +1,23 @@
+{
+  "title": "OR are we here?",
+  "premises": [["A"]],
+  "lockedPremises": [],
+  "cards": [],
+  "limitedCards": [
+    ["B", 1],
+    ["~", 1],
+    ["|", 1]
+  ],
+  "goals": [
+    { "kind": "unknown", "expr": ["A"] },
+    { "kind": "unknown", "expr": ["B"] }
+  ],
+
+  "description": [
+    "Hey, welcome! In this level we are going to show you the mystery of the 'or' operator!",
+    "We have A set up in the premise, but we need to show that the value of A is unknown (neither proven or disproven). How can we do this?",
+    "Our friend 'or' operator is here to help! An expression 'A ∨ B' (also known as a logical disjunction of A and B) does not entail anything about A and B in and of itself.",
+    "Thinking of it as 'I know that one of A and B is true (or maybe both), but I need more information to deduce which is true. Hence both of them are undecidable.'",
+    "Notice that ∨ is commutative. That is, 'A ∨ B' and 'B ∨ A' are equivalent!"
+  ]
+}

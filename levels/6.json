@@ -1,0 +1,19 @@
+{
+  "title": "Disjunctive Syllogism",
+  "premises": [["A", "|", "B"], []],
+  "lockedPremises": [0],
+  "cards": ["A"],
+  "limitedCards": [
+    ["~", 1],
+    ["&", 1],
+    ["|", 1]
+  ],
+  "goals": [{ "kind": "prove", "expr": ["B"] }],
+
+  "description": [
+    "Disjunctive syllogism is one way of concluding from a disjunction.",
+    "Imagine if A or B holds, this means that we know that at least 1 of A and B are true, but we don't know which.",
+    "Notice that the first premise is locked, hence you cannot modify it.",
+    "Can you think of a way of proving B with the given cards?"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "IF that's the case...",
+  "premises": [["A", "->", "B"], []],
+  "lockedPremises": [0],
+  "cards": ["A"],
+  "goals": [{ "kind": "prove", "expr": ["B"] }],
+  "description": [
+    "Hey, welcome back! In this level we are going to show you the mystery of the 'implies' operator!",
+    "In the first premise, A → B means that you can deduce B, provided that you have A. If you do not have A, B can be either true or false.",
+    "Imagine → being a 'if' clause, A → B means 'if A, then B'. Just as what Socrates once said: \"Every mortal will die, Socrates is mortal, therefore Socrates will die.\"",
+    "Notice that → is NOT commutative. That is, 'A → B' and 'B → A' are NOT equivalent!"
+  ]
+}

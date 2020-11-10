@@ -1,0 +1,12 @@
+{
+  "title": "Involution",
+  "premises": [["~", "A"]],
+  "lockedPremises": [],
+  "cards": ["~"],
+  "limitedCards": [],
+  "goals": [{ "kind": "prove", "expr": ["A"] }],
+  "description": [
+    "There are already an ¬A at the premise, our goal is to prove A.",
+    "We need the help of the Involution Theorem. The Involution Theorem suggests that ¬(¬A) = A"
+  ]
+}

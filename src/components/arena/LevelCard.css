@@ -1,0 +1,9 @@
+.my_link:hover {
+    transition: all 0.3s ease 0s;
+}
+
+.my_link:hover {
+    color: rgba(255, 165, 0, .75) !important;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}

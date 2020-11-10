@@ -1,0 +1,10 @@
+{
+  "title": "Precedence",
+  "premises": [["A", "&", "A", "|", "B"]],
+  "cards": ["(", ")"],
+  "goals": [{ "kind": "equivalent", "expr": ["A"] }],
+  "description": [
+    "By default, 'and' has a higher precedence than 'or'.",
+    "Recall what you have learnt about absorption, carefully place these brackets."
+  ]
+}

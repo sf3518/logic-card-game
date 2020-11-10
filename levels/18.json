@@ -1,0 +1,12 @@
+{
+  "title": "Associativity",
+  "premises": [["A", "->", "B", "->", "B"]],
+  "lockedPremises": [],
+  "cards": ["(", ")"],
+  "goals": [{ "kind": "equivalent", "expr": ["A", "|", "B"] }],
+  "description": [
+    "The implication operator (→) is right-associative. Which means the premise given should read as A → (B → B).",
+    "It is obvious that B → B is a tautology, hence A → (B → B) is also a tautology (everything implies true).",
+    "Can you carefully place the parentheses to make the expression equivalent to A ∨ B?"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "De Morgan's Law",
+  "premises": [["A", "&", "B"]],
+  "cards": ["(", ")"],
+  "limitedCards": [
+    ["~", 1],
+    ["|", 1],
+    ["&", 1]
+  ],
+  "goals": [{ "kind": "equivalent", "expr": ["~", "A", "|", "~", "B"] }],
+  "description": [
+    "In this level you are going to construct a proof which is equivalent to the given goal.",
+    "By 'equivalent', it means that your proof and the goal should logically entail each other.",
+    "The trick is to look at the goal, carefully think about the truth value of each variable."
+  ]
+}

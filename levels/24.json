@@ -1,0 +1,11 @@
+{
+  "title": "There's a traitor among us",
+  "premises": [["~","A","|","~","C","|","~","B"],[], []],
+  "lockedPremises": [0],
+  "cards": ["(", ")", "A", "C"],
+  "limitedCards": [["~", 2]],
+  "goals": [
+    { "kind": "disprove", "expr": ["B"] }
+  ],
+  "description": []
+}

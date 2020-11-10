@@ -1,0 +1,18 @@
+{
+  "title": "Tautology",
+  "premises": [["A"]],
+  "lockedPremises": [],
+  "limitedCards": [
+    ["A", 2],
+    ["B", 2],
+    ["|", 1],
+    ["&", 1],
+    ["~", 1]
+  ],
+  "goals": [{ "kind": "tautology" }],
+  "description": [
+    "Hey! Welcome to this section. We are going to introduce you with some new goals to play with.",
+    "In this level, you are going to formulate a tautology. That is, the proof will guaranteed to be true, regardless of the truth value of each variable.",
+    "Can you achieve this with the minimum number of cards? (Hint: Law of excluded-middle will be very helpful in this scenario)."
+  ]
+}

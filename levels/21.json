@@ -1,0 +1,20 @@
+{
+  "title": "Double Kill",
+  "premises": [["(", "A", "->", "B", ")", "&", "A"]],
+  "lockedPremises": [],
+  "limitedCards": [
+    ["A", 2],
+    ["B", 2],
+    ["|", 1],
+    ["&", 1],
+    ["->", 1]
+  ],
+  "goals": [
+    { "kind": "unknown", "expr": ["A"] },
+    { "kind": "unknown", "expr": ["B"] }
+  ],
+  "description": [
+    "Now we know A as a fact that cannot be changed. And as we know from the 1st premise, A and B are both true in this case.",
+    "Now we want to make both A and B to be undecidable (remember, X is undecidable means we cannot entail X being either true or false from the given premises)."
+  ]
+}

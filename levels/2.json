@@ -1,0 +1,15 @@
+{
+  "title": "Negation",
+  "premises": [["A"]],
+  "lockedPremises": [],
+  "cards": [],
+  "limitedCards": [["~", 1]],
+  "goals": [{ "kind": "disprove", "expr": ["A"] }],
+  "description": [
+    "Hey, welcome! In this level we are going to demonstrate the use of the logical 'not' operator.",
+    "As you can see, there are already an A at the premise, hence the whole proof entails A. Nevertheless, our goal is to disprove A.",
+    "The card you have right now is called the logical 'not' operator, it simply negates the value of the variable. (e.g. If A is true, then ¬A is false).",
+    "Click on the card, then click the green placeholder at the FRONT of A to place the operator to the front of A!",
+    "Hooray! Now you have disproven A, well done!"
+  ]
+}

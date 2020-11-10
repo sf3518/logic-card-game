@@ -1,0 +1,115 @@
+.entry {
+  background: url("../../src_img/background/entry_background.png") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto 100%;
+  height: 100vh;
+  pointer-events: none;
+  position: absolute;
+  width: 100vw;
+}
+
+.animation {
+  height: 100%;
+  left: 0;
+  position: relative;
+  pointer-events: auto;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.login {
+  height: 70px;
+  left: 1%;
+  line-height: 70px;
+  margin-right: 40px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 1%;
+  width: 80px;
+}
+
+.game_name {
+  background-color: transparent;
+  font-family: Apple Chancery, cursive;
+  font-size: 115px;
+  height: 70px;
+  left: 55%;
+  line-height: 70px;
+  position: absolute;
+  text-align: center;
+  top: 27%;
+  width: 250px;
+}
+
+.fst_choice {
+  background-color: darkgray;
+  border-radius: 25px;
+  border-style: double;
+  height: 60px;
+  left: 63%;
+  line-height: 60px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 230px;
+}
+
+.fst_choice:hover {
+  border-color: aquamarine;
+}
+
+.snd_choice {
+  background-color: darkgray;
+  border-radius: 25px;
+  border-style: double;
+  height: 60px;
+  left: 63%;
+  line-height: 60px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 62.5%;
+  width: 230px;
+}
+
+.snd_choice:hover {
+  border-color: aquamarine;
+}
+
+.trd_choice {
+  background-color: darkgray;
+  border-radius: 25px;
+  border-style: double;
+  height: 60px;
+  left: 63%;
+  line-height: 60px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 75%;
+  width: 230px;
+}
+
+.trd_choice:hover {
+  border-color: aquamarine;
+}
+
+.link {
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-family: Stencil Std, fantasy;
+  transition: transform 0.2s; /* Animation */
+  width: 100%;
+}
+
+.link:hover {
+  color: aquamarine;
+  text-decoration: none;
+}

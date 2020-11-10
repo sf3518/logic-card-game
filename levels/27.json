@@ -1,0 +1,10 @@
+{
+  "title": "Game of Negation",
+  "premises": [["~","B"], ["C","|","(","A","&","~","B",")"]],
+  "lockedPremises": [0],
+  "cards": ["(", ")", "~"],
+  "goals": [
+    { "kind": "prove", "expr": ["A", "->", "C"] }
+  ],
+  "description": []
+}

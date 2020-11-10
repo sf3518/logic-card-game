@@ -1,0 +1,13 @@
+.button {
+    border: 2.5px solid !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: white !important;
+    border-color: rgba(255, 165, 0, .75) !important;
+    border-radius: 50px !important;
+    color: rgba(255, 165, 0, .75) !important;
+    transition: all 0.3s ease 0s;
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Turn around!",
+  "premises": [["A", "&", "C", "|", "C"]],
+  "lockedPremises": [],
+  "cards": ["A", "C"],
+  "limitedCards": [
+    ["~", 1],
+    ["&", 1]
+  ],
+  "goals": [
+    { "kind": "prove", "expr": ["A"] },
+    { "kind": "unknown", "expr": ["C"] }
+  ],
+  "description": [
+    "This is a classic absorption: C is true while A is unknown. Can you try to turn the whole thing over such that A is true but C is unknown?"
+  ]
+}

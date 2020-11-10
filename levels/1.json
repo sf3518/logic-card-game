@@ -1,0 +1,17 @@
+{
+  "title": "Hello, world!",
+  "premises": [[]],
+  "lockedPremises": [],
+  "cards": [],
+  "limitedCards": [["A", 1]],
+  "goals": [{ "kind": "equivalent", "expr": ["A"] }],
+
+  "description": [
+    "Hi, Welcome to ParaDox! In this tutorial we are going to show you how to play this game.",
+    "Each level of ParaDox contains 2 parts: premises(At the top) and your handcards(In the middle).",
+    "Imagine the premises being the \"knowledge that you have\", and the handcards being \"the material that I can use to change the knowledge that I have\".",
+    "Your goal is to play your hand cards to the premises to formulate a logical proof which entails all the expected goals shown at the bottom.",
+    "Click on the hand card \"A\" to select this card. After that, click the green placeholder to play the selected card to the premise.",
+    "Eurika! You have just finalized a proof of A |= A"
+  ]
+}

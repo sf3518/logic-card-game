@@ -1,0 +1,7 @@
+.DiscardArea {
+  width: 4rem;
+  height: 6rem;
+  background-color: #444;
+  position: 'absolute';
+  text-align: center;
+}
